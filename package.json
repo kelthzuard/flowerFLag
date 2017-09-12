@@ -1,0 +1,21 @@
+{
+  "name": "fl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.4",
+    "express-session": "^1.15.5",
+    "mongoose": "^4.11.9",
+    "morgan": "^1.8.2",
+    "mysql": "^2.14.1",
+    "serve-favicon": "^2.4.3"
+  }
+}
