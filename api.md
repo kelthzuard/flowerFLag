@@ -79,3 +79,27 @@ response" {
         }
     }
 }
+
+url: /startNew
+type: post
+body: {
+    projectName:
+    projectIntroduce:
+    projectImage:
+    projectAim:（目标金额）
+    projectEndTime:截止日期
+}
+response: {
+    200: 'success'
+    404: 'failed'
+}
+
+url: /trade
+type: post
+body: {
+    value ://交易金额
+}
+response: {
+    200: 'success'
+    404: 'failed'
+}
