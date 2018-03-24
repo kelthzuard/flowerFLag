@@ -55,9 +55,10 @@ router.post('/',function(req,res,next){
 					projectName:req.body.projectName ,
 					projectIntroduce:req.body.projectIntroduce ,
 					projectImage: readPath,
+					projectAim:req.body.projectAim,
 					projectFortune:0 ,
-					projectcompleted:0 ,
 					projectParticipated:0 ,
+					projectEndTime:req.body.projectEndTime,
 					projectDate:[] ,
 				},function(err,doc){
 					if(err){

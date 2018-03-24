@@ -25,6 +25,8 @@ var user = require('./routes/user');
 var project = require('./routes/project');
 var home = require('./routes/home');
 var code = require('./routes/code');
+var trade = require('./routes/trade');
+var detail = require('./routes/detail');
 
 
 
@@ -53,6 +55,9 @@ app.use('/user', user);
 app.use('/project', project);
 app.use('/home', home);
 app.use('/code', code);
+app.use('/trade', trade);
+app.use('/detail', detail);
+
 
 
 

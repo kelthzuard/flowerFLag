@@ -98,6 +98,7 @@ url: /trade
 type: post
 body: {
     value ://交易金额
+    projectId: 目标金额//
 }
 response: {
     200: 'success'

@@ -19,15 +19,13 @@ router.post('/',function(req,res,next){
 	user.findOne({userId:req.body.userId},function(err,doc){
 		if(doc === null){
 
-			//这里分配十个比特币
-			getBlock(req.body.userId);
-
 			user.create({
 				userId:req.body.userId,
 				userPassword:passWord,
 				userName: req.body.userName,
 				userType: req.body.userType,
-				fortune: 100,
+				fortune: 1000,
+				userStartNew: 0,
 				userProject: ['']
 			},function(err,doc){
 				if(err){
