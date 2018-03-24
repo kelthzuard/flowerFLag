@@ -34,6 +34,25 @@ response: {
         projectFortune:(以筹到金额)
         projectAim:（目标金额）
         projectParticipated:（参与人数)
+        projectEndTime:截止日期
+        projectDate: 资金流向
+    }
+}
+
+url: /detail?project=xxx (项目详情页)
+type: get
+body: {}
+response: {
+    {
+        projectID:
+        projectName:
+        projectIntroduce:
+        projectImage:
+        projectFortune:(以筹到金额)
+        projectAim:（目标金额）
+        projectParticipated:（参与人数)
+        projectEndTime:截止日期
+        projectDate: 资金流向
     }
 }
 
@@ -44,10 +63,10 @@ response" {
     userId:
     userPassword:
     userName:
-    userType:
     fortune:
+    userStartNew: //发起的项目数
     userProject:{
-        {
+        {   
             projectID:
             projectName:
             projectIntroduce:
@@ -55,6 +74,8 @@ response" {
             projectFortune:(以筹到金额)
             projectAim:（目标金额）
             projectParticipated:（参与人数)
+            projectEndTime:截止日期
+            projectDate: 资金流向
         }
     }
 }
